@@ -1,4 +1,3 @@
-import * as React from "react";
 import Body from "./card-body";
 import CardTitle from "./card-title";
 import { Character } from "../../public/fma-data";

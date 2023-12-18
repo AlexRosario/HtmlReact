@@ -1,4 +1,3 @@
-import * as React from "react";
 import "./character-cards.css";
 import { Character } from "../../public/fma-data";
 

@@ -1,9 +1,7 @@
 import "./character-ratings.css";
-import { Character } from "../../public/fma-data";
-import { data } from "../../public/fma-data";
 import TopCharacters from "./top-characters";
 
-function Table({ name, skillset, votes }: Character) {
+function Table() {
 	return (
 		<>
 			<h4>Top Characters</h4>
