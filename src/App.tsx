@@ -1,6 +1,4 @@
-import * as React from "react";
 import { data } from "../public/fma-data";
-import { Character } from "../public/fma-data";
 import Card from "./character-cards/card";
 import "./App.css";
 import Header from "./header/header";
@@ -11,17 +9,11 @@ function App() {
 		<>
 			<Header />
 			<section id="character-ratings">
-				<Table />
+				<Table characters={data} />
 			</section>
 			<section id="character-cards">
-				{data.map((character: Character) => (
-					<Card
-						key={character.name}
-						imageUrl={character.imageUrl}
-						name={character.name}
-						nickName={character.nickName}
-						background={character.background}
-					/>
+				{data.map((character) => (
+					<Card key={character.name} character={character} />
 				))}
 			</section>
 		</>

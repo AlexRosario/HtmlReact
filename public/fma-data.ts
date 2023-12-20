@@ -36,7 +36,7 @@ export const data: Character[] = [
 		background:
 			"Edward is a master alchemist and our main character... just don't call him short",
 		imageUrl:
-			"https://www.pngkit.com/png/detail/952-9524083_edward-elric-photo-edwardelric7-full-body-edward-elric.png",
+			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZIYeJmt-b6uoJB43ClYihsNePSPK2NB7g8A&usqp=CAU",
 	},
 	{
 		name: "Greed",
