@@ -3,7 +3,7 @@ import { Character } from "../../public/fma-data";
 
 function Table({ characters }: { characters: Character[] }) {
 	const topCharacters = characters
-		.sort((a, b) => b.votes - a.votes)
+		.toSorted((a, b) => b.votes - a.votes)
 		.slice(0, 5);
 
 	return (
